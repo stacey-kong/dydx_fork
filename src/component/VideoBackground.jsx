@@ -7,7 +7,7 @@ export default function Video() {
       muted
       loop
       id="bgVideo"
-      className="min-h-full min-w-full fixed inset-0 object-cover"
+      className="min-h-full min-w-full fixed inset-0 -z-10 object-cover"
       src={wave}
       type="video/webm"
     ></video>

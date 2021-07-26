@@ -4,7 +4,7 @@ import mobile from "../../images/mobile.png";
 export default function Header() {
   return (
     <div className={`${styles.header} pt-10 w-9/10 m-auto`}>
-      <div className="subtitle uppercase text-xs">Powered by</div>
+      <div className="sectionSubtitle">Powered by</div>
 
       <h1 className="title text-5xl mt-4">
         Leverage,

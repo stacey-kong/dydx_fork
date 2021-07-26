@@ -9,6 +9,12 @@
     url(./fonts/HindSiliguri/HindSiliguri-Medium.ttf) format("truetype");
 }
 
+@layer components {
+  .sectionSubtitle {
+    @apply uppercase text-xs text-secondary;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

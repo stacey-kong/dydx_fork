@@ -9,7 +9,10 @@ module.exports = {
       zIndex: {
         "-10": "-10",
       },
-      
+      colors: {
+        primary: "#5c6ac4",
+        secondary: "rgb(128, 126, 152)",
+      },
     },
   },
   variants: {

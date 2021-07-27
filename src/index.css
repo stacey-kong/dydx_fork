@@ -13,6 +13,9 @@
   .sectionSubtitle {
     @apply uppercase text-xs text-secondary;
   }
+  .sectionParagraph{
+    @apply text-sm max-w-md mt-2
+  }
 }
 
 body {

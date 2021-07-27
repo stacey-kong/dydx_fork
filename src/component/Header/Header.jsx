@@ -1,10 +1,14 @@
 import styles from "./Header.module.css";
-import mobile from "../../images/mobile.png";
+import mobile from "../../images/Header/mobile.png";
+import starkware from "../../images/Header/starkware.svg";
 
 export default function Header() {
   return (
-    <div className={`${styles.header} pt-10 w-9/10 m-auto`}>
-      <div className="sectionSubtitle">Powered by</div>
+    <div className={`${styles.header} pt-10 w-9/10 m-auto `}>
+      <div className="sectionSubtitle inline-flex">
+        Powered by
+        <img src={starkware} alt="starkware" className="ml-2 mb-1" />
+      </div>
 
       <h1 className="title text-5xl mt-4">
         Leverage,
@@ -12,12 +16,15 @@ export default function Header() {
         decentralized
       </h1>
 
-      <p className="text-s max-w-md mt-2">
+      <p className="sectionParagraph">
         Trade Perpetual Contracts with low fees, deep liquidity, and up to 25×
-        more Buying Power. <span>Deposit just $10 to get started.</span>
+        more Buying Power.{" "}
+        <span className="text-secondary">Deposit just $10 to get started.</span>
       </p>
 
-      <div className={`${styles.pageLink} mt-10 flex flex-wrap justify-center`}>
+      <div
+        className={`${styles.pageLink} mt-10 flex flex-wrap justify-center text-secondary`}
+      >
         <span>Visit exchange</span>
         <span>Use the API</span>
         <span>Join Discord</span>

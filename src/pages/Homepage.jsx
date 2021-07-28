@@ -3,6 +3,7 @@ import Video from "../component/VideoBackground";
 import Header from "../component/Header/Header";
 import Market from "../component/Market/Market";
 import Feature from "../component/Feature/Feature";
+import Investor from "../component/Investor/Investor";
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
         <Header />
         <Market />
         <Feature />
+        <Investor/>
       </div>
     </div>
   );

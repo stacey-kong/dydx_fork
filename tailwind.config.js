@@ -12,6 +12,12 @@ module.exports = {
       colors: {
         primary: "#5c6ac4",
         secondary: "rgb(128, 126, 152)",
+        number:"rgba(200,199,216)",
+        red:"rgb(228, 85, 85)"
+      },
+      fontSize: {
+        xs: "0.875rem",
+        s: "1.075rem",
       },
     },
   },

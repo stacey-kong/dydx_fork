@@ -1,0 +1,16 @@
+.coinWrapper {
+  background: url(../../images/Market/dots.svg) center center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  max-width: 36rem;
+}
+
+.coinIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  margin-right: 0.75rem;
+}
+

@@ -1,0 +1,59 @@
+.borderPurple {
+  box-shadow: rgb(130 71 229 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(130, 71, 229, 0.25);
+}
+
+.borderLightpurple {
+  box-shadow: rgb(122 87 221 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(122, 87, 221, 0.25);
+}
+
+.borderGold {
+  box-shadow: rgb(244 155 51 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(244, 155, 51, 0.25);
+}
+
+.borderBlue {
+  box-shadow: rgb(0 51 173 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(0, 51, 173, 0.25);
+}
+
+.borderLightblue {
+  box-shadow: rgb(51 93 210 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(51, 93, 210, 0.25);
+}
+
+.borderYellow {
+  box-shadow: rgb(186 160 51 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(186, 160, 51, 0.25);
+}
+
+.borderWhite {
+  box-shadow: rgb(255 255 255 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.borderPink {
+  box-shadow: rgb(220 107 229 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(220, 107, 229, 0.25);
+}
+
+.borderGreen {
+  box-shadow: rgb(0 255 163 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(0, 255, 163, 0.25);
+}
+
+.borderLightgreen {
+  box-shadow: rgb(26 171 155 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(26, 171, 155, 0.25);
+}
+
+.borderGray {
+  box-shadow: rgb(46 49 72 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(46, 49, 72, 0.25);
+}
+
+.borderRed {
+  box-shadow: rgb(232 65 66 / 15%) 0px 0px 24px;
+  border: 1px solid rgba(232, 65, 66, 0.25);
+}

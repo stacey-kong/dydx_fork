@@ -27,6 +27,7 @@ export const coinArray = [
     change: "-5.47",
     volumn: "33.5",
     iconSrc: eth,
+    border: "Lightpurple",
   },
   {
     name: "Bitcoin",
@@ -35,6 +36,7 @@ export const coinArray = [
     change: "-3.46",
     volumn: "12.8",
     iconSrc: btc,
+    border: "Gold",
   },
   {
     name: "Cardano",
@@ -43,6 +45,7 @@ export const coinArray = [
     change: "-7.1",
     volumn: "0.0",
     iconSrc: ada,
+    border: "Blue",
   },
   {
     name: "Dogecoin",
@@ -51,6 +54,7 @@ export const coinArray = [
     change: "-11.08",
     volumn: "0.6",
     iconSrc: doge,
+    border: "Yellow",
   },
   {
     name: "Polkadot",
@@ -59,6 +63,7 @@ export const coinArray = [
     change: "-7.93",
     volumn: "0.7",
     iconSrc: dot,
+    border: "White",
   },
   {
     name: "Chainlink",
@@ -67,6 +72,7 @@ export const coinArray = [
     change: "-2.68",
     volumn: "0.2",
     iconSrc: link,
+    border: "Lightblue",
   },
   {
     name: "Uniswap",
@@ -75,6 +81,7 @@ export const coinArray = [
     change: "-7.78",
     volumn: "0.2",
     iconSrc: uni,
+    border: "Pink",
   },
   {
     name: "Solana",
@@ -83,6 +90,7 @@ export const coinArray = [
     change: "-8.47",
     volumn: "0.3",
     iconSrc: sol,
+    border: "Lightgreen",
   },
   {
     name: "Polygon",
@@ -91,6 +99,7 @@ export const coinArray = [
     change: "-6.84",
     volumn: "1.1",
     iconSrc: matic,
+    border: "Purple",
   },
   {
     name: "Aave",
@@ -99,6 +108,7 @@ export const coinArray = [
     change: "-6.79",
     volumn: "0.6",
     iconSrc: aave,
+    border: "Lightgreen",
   },
   {
     name: "Cosmos",
@@ -107,6 +117,7 @@ export const coinArray = [
     change: "-8.50",
     volumn: "0.1",
     iconSrc: atom,
+    border: "Gray",
   },
   {
     name: "Maker",
@@ -115,6 +126,7 @@ export const coinArray = [
     change: "-7.42",
     volumn: "0.1",
     iconSrc: mkr,
+    border: "Lightgreen",
   },
   {
     name: "Compound",
@@ -123,6 +135,7 @@ export const coinArray = [
     change: "-8.18",
     volumn: "0.1",
     iconSrc: comp,
+    border: "Green",
   },
   {
     name: "Avalanche",
@@ -131,6 +144,7 @@ export const coinArray = [
     change: "-6.16",
     volumn: "0.2",
     iconSrc: avax,
+    border: "Red",
   },
   {
     name: "Synthesix",
@@ -139,6 +153,7 @@ export const coinArray = [
     change: "-1.98",
     volumn: "0.2",
     iconSrc: snx,
+    border: "Blue",
   },
   {
     name: "SushiSwap",
@@ -147,6 +162,7 @@ export const coinArray = [
     change: "-14.46",
     volumn: "0.1",
     iconSrc: sushi,
+    border: "Lightblue",
   },
   {
     name: "Yearn",
@@ -155,6 +171,7 @@ export const coinArray = [
     change: "-8.41",
     volumn: "0.1",
     iconSrc: yfi,
+    border: "Blue",
   },
   {
     name: "UMA",
@@ -163,6 +180,7 @@ export const coinArray = [
     change: "-7.91",
     volumn: "0.1",
     iconSrc: uma,
+    border: "Red",
   },
   {
     name: "Curve",
@@ -171,6 +189,7 @@ export const coinArray = [
     change: "-10.03",
     volumn: "0.3",
     iconSrc: crv,
+    border: "Yellow",
   },
   {
     name: "1inch",
@@ -179,5 +198,6 @@ export const coinArray = [
     change: "-5.38",
     volumn: "0.5",
     iconSrc: inch,
+    border: "Gray",
   },
 ];

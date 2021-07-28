@@ -1,0 +1,28 @@
+.featureWrapper {
+  display: inline-flex;
+  margin: auto;
+  width: 94%;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+  background-color: rgba(105, 102, 255);
+}
+
+.text{
+    text-align: start;
+}
+
+.featureIntro{
+    font-size: 1.075rem;
+}
+

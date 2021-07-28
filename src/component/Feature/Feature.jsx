@@ -30,7 +30,7 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className="title w-full text-xl">Low fees, no gas costs</span>
+            <span className="title w-full text-sm">Low fees, no gas costs</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Once you deposit to Layer 2, you will no longer pay fees to miners
               for each transaction.
@@ -56,7 +56,9 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className={`flex flex-wrap w-3/4`}>Lightning quick</span>
+            <span className={`flex flex-wrap w-3/4 text-sm`}>
+              Lightning quick
+            </span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Trades are executed instantly and confirmed on the blockchain
               within hours.
@@ -80,7 +82,7 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className="title w-full text-xl">Fast withdrawals</span>
+            <span className="title w-full text-sm">Fast withdrawals</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Unlike other platforms, there is no wait required to withdraw your
               funds from Layer 2.
@@ -104,7 +106,7 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className="title w-full text-xl">Mobile friendly</span>
+            <span className="title w-full text-sm">Mobile friendly</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               We've redesigned our exchange from the ground up, so you can use
               it from any device.
@@ -131,7 +133,7 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className="title w-full text-xl">Secure &amp; private</span>
+            <span className="title w-full text-sm">Secure &amp; private</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               StarkWare's Layer 2 solution provides increased security &amp;
               privacy via zero-knowledge rollups.
@@ -158,7 +160,7 @@ export default function Feature() {
             </div>
           </div>
           <div className={`${styles.text} flex flex-wrap w-3/4`}>
-            <span className="title w-full text-xl">Cross-margining</span>
+            <span className="title w-full text-sm">Cross-margining</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Access leverage across positions in multiple markets from a single
               account.

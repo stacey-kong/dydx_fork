@@ -1,5 +1,6 @@
 import { isMobile } from "react-device-detect";
 import Video from "../component/VideoBackground";
+import TopMenu from "../component/TopMenu/TopMenu";
 import Header from "../component/Header/Header";
 import Market from "../component/Market/Market";
 import Feature from "../component/Feature/Feature";
@@ -7,14 +8,14 @@ import Investor from "../component/Investor/Investor";
 
 export default function Homepage() {
   return (
-    <div className="homepageWrapper min-h-screen text-white">
+    <div className="homepageWrapper min-h-screen max-w-full text-white box-border overflow-y-auto">
       {!isMobile && <Video />}
-      <div className="fixedBar sticky bg-white top-0 w-full h-10 z-10"></div>
-      <div className="pageContainer w-9/10 m-auto">
+      <TopMenu />
+      <div className="pageContainer w-9/10 m-auto box-border mt-12">
         <Header />
         <Market />
         <Feature />
-        <Investor/>
+        <Investor />
       </div>
     </div>
   );

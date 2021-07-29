@@ -1,5 +1,5 @@
 import styles from "./Market.module.css";
-import "./youtube.css"
+import "./youtube.css";
 import CoinMedal from "../CoinMedal/CoinMedal";
 import { coinArray } from "../CoinMedal/CoinArray";
 
@@ -17,7 +17,9 @@ export default function Market() {
           <CoinMedal {...coin} />
         ))}
       </div>
-      <div className={`${styles.videoWrapper} mt-20 mx-auto w-9/10 h-48 text-xs`}>
+      <div
+        className={`${styles.videoWrapper} mt-20 mx-auto w-9/10 h-48 text-xs`}
+      >
         <iframe
           class="rounded-2xl"
           allowfullscreen="1"

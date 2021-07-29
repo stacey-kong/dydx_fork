@@ -1,0 +1,13 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(40, 40, 59);
+  box-shadow: rgb(105 102 255 / 10%) 0px 0px 40px;
+  border-radius: 0.75rem;
+  margin: 2rem 0;
+  margin-bottom: 6rem;
+}
+
+.table > div {
+  border-bottom: 1px solid rgba(40, 40, 59);
+}

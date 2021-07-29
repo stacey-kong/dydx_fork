@@ -5,7 +5,7 @@ import { coinArray } from "../CoinMedal/CoinArray";
 
 export default function Market() {
   return (
-    <div className={`${styles.Market} w-9/10 m-auto`}>
+    <div className="w-9/10 m-auto">
       <span className="sectionSubtitle">Now live</span>
 
       <h1 className="sectionTitle ">Start trading</h1>

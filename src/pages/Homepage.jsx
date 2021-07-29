@@ -5,6 +5,7 @@ import Header from "../component/Header/Header";
 import Market from "../component/Market/Market";
 import Feature from "../component/Feature/Feature";
 import Investor from "../component/Investor/Investor";
+import BottomBanner from "../component/BottomBanner/BottomBanner";
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
         <Feature />
         <Investor />
       </div>
+      <BottomBanner />
     </div>
   );
 }

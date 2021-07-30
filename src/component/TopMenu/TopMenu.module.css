@@ -23,12 +23,12 @@
 .selectorWrapper {
   text-align: center;
   justify-content: space-around;
-  /* padding: 0.5rem 0; */
   min-width: max-content;
   color: rgb(200, 199, 216);
   background-color: rgb(35, 35, 52);
   border-radius: 0.5rem;
   position: relative;
+  left: 10px;
 }
 
 .dropDownWrapper {
@@ -38,4 +38,32 @@
   padding: 6px 8px;
   border-radius: 8px;
   width: 9rem;
+}
+
+.logo {
+  background: url("../../images/Menu/icon.svg") no-repeat center;
+  background-size: 100% 100%;
+  width: 15%;
+  height: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    background: url("../../images/Menu/logo.svg") no-repeat center;
+    background-size: 100% 100%;
+  }
+
+  .selectorWrapper {
+    left: -20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    width: 10%;
+  }
+
+  .selectorWrapper {
+    left: -60px;
+  }
 }

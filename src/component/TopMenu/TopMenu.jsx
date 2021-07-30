@@ -1,7 +1,7 @@
 import styles from "./TopMenu.module.css";
-import icon from "../../images/Menu/icon.svg";
 import menu from "../../images/Menu/menu.svg";
 import arrow from "../../images/Menu/downArrow.svg";
+import Tabs from "./Tabs";
 
 import { useEffect, useState } from "react";
 
@@ -39,11 +39,10 @@ export default function TopMenu() {
         border ? `${styles.border}` : ""
       } text-s`}
     >
-      <img
-        src={icon}
+      <div
         width={100}
         alt="Brand icon"
-        className="max-h-full min-h-full"
+        className={`${styles.logo} max-h-full min-h-full lg:py-2`}
       />
 
       <div className={`${styles.selectorWrapper}`}>
@@ -74,9 +73,11 @@ export default function TopMenu() {
           </ul>
         </div>
       </div>
-      <div className="w-1/4 xs:w-1/2 flex box-border justify-end mr-4 ">
+
+      <div className="w-1/4 xs:w-1/2 flex box-border justify-end mr-4 lg:hidden">
         <img src={menu} alt="menu button" />
       </div>
+      <Tabs />
     </div>
   );
 }

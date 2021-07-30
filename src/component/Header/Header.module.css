@@ -12,3 +12,33 @@
   padding: 0.5rem;
   cursor: pointer;
 }
+
+.trade {
+  background: url("../../images/Header/mobile.png") no-repeat center;
+  background-size: 100% 100%;
+  width: 80%;
+  height: 500px;
+  margin: 6rem auto;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .pageLink span {
+    padding: 1rem;
+  }
+
+  .trade {
+    background: url("../../images/Header/web-small.svg") no-repeat center;
+    background-size: 100% 100%;
+    margin: 2rem auto;
+    height: 400px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .trade {
+    height: 600px;
+    width: 98%;
+  }
+}

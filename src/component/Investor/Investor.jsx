@@ -3,11 +3,15 @@ import { investorArray } from "./investorArray";
 
 export default function Investor() {
   return (
-    <div className={`${styles.investor} w-9/10 m-auto mt-10`}>
+    <div
+      className={`${styles.investor} w-9/10 md:w-full m-auto mt-10 lg:w-9/10`}
+    >
       <span className="sectionSubtitle">Battle-tested</span>
 
-      <h1 className="text-m w-full">Trusted by over 15,000 traders</h1>
-      <p className="sectionParagraph w-9/10 mx-auto">
+      <h1 className="text-m w-full md:text-l">
+        Trusted by over 15,000 traders
+      </h1>
+      <p className="sectionParagraph w-9/10 mx-auto md:w-full">
         We believe everyone should have access to open &amp; powerful financial
         tools.
       </p>
@@ -30,11 +34,11 @@ export default function Investor() {
       </div>
       <div>
         <span className="sectionSubtitle">Our investors</span>
-        <h1 className="text-m w-full">Backed by the best</h1>
+        <h1 className="text-m w-full text-l">Backed by the best</h1>
         <p className="sectionParagraph w-9/10 mx-auto">
           Our global investors include angel investors & leading funds
         </p>
-        <div className="grid grid-flow-row grid-cols-2 gap-x-2 gap-y-10 mx-auto mt-10 mb-52">
+        <div className="grid grid-flow-row grid-cols-2 gap-x-2 gap-y-10 mx-auto mt-10 mb-52 md:grid-cols-5 md:w-full lg:w-5/6">
           {investorArray.map((investor) => (
             <div className="w-full justify-center flex max-h-10">
               <img src={investor.src} alt={investor.name} width={100} />

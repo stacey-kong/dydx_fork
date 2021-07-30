@@ -10,7 +10,7 @@ export default function Header() {
         <img src={starkware} alt="starkware" className="ml-2 mb-1" />
       </div>
 
-      <h1 className="title text-5xl mt-4">
+      <h1 className="title text-5xl md:text-7xl mt-4">
         Leverage,
         <br />
         decentralized
@@ -23,18 +23,14 @@ export default function Header() {
       </p>
 
       <div
-        className={`${styles.pageLink} mt-10 flex flex-wrap justify-center text-secondary`}
+        className={`${styles.pageLink} mt-10 mx-auto flex flex-wrap justify-center text-secondary`}
       >
         <span>Visit exchange</span>
         <span>Use the API</span>
         <span>Join Discord</span>
       </div>
 
-      <img
-        src={mobile}
-        alt="trading interface in mobile phone"
-        className="px-10 py-20"
-      />
+      <div className={styles.trade}></div>
     </div>
   );
 }

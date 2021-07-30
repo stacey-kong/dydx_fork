@@ -9,5 +9,19 @@
 }
 
 .table > div {
+  width: 100%;
   border-bottom: 1px solid rgba(40, 40, 59);
+}
+
+@media screen and (min-width: 768px) {
+  .table {
+    display: inline-flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .table > div {
+    width: 33.3333333%;
+    border-left: 1px solid rgba(40, 40, 59);
+  }
 }

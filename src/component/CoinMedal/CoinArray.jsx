@@ -4,6 +4,7 @@ import ada from "../../images/Coin/ada.svg";
 import doge from "../../images/Coin/doge.svg";
 import dot from "../../images/Coin/dot.svg";
 import link from "../../images/Coin/link.svg";
+import ltc from "../../images/Coin/ltc.svg";
 import uni from "../../images/Coin/uni.svg";
 import sol from "../../images/Coin/sol.svg";
 import matic from "../../images/Coin/matic.svg";
@@ -64,6 +65,15 @@ export const coinArray = [
     volumn: "0.7",
     iconSrc: dot,
     border: "White",
+  },
+  {
+    name: "Ltc",
+    symbol: "ltc",
+    price: "135.67",
+    change: "-4.93",
+    volumn: "0.3",
+    iconSrc: ltc,
+    border: "Gray",
   },
   {
     name: "Chainlink",

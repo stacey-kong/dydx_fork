@@ -18,7 +18,7 @@
     @apply text-xl mt-2 leading-9;
   }
   .sectionParagraph {
-    @apply text-s max-w-md mt-2;
+    @apply text-s max-w-md mt-2 m-auto md:mt-4 md:max-w-xl;
   }
 }
 

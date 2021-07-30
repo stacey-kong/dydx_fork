@@ -9,7 +9,7 @@ export default function Feature() {
       <p className="sectionParagraph w-9/10 mx-auto">
         We built the fastest and most powerful decentralized exchange ever.
       </p>
-      <div className="contentWrapper mt-14 w-full">
+      <div className="contentWrapper mt-14 w-full md:grid md:grid-flow-row md:grid-cols-2">
         <div className={`${styles.featureWrapper}`}>
           <div className="w-1/4">
             <div className={`${styles.icon}`}>
@@ -65,7 +65,7 @@ export default function Feature() {
             </span>
           </div>
         </div>
-        <div className={`${styles.featureWrapper}`}>
+        <div className={`${styles.featureWrapper} `}>
           <div className="w-1/4">
             <div className={`${styles.icon}`}>
               <svg

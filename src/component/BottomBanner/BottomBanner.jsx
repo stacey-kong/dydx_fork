@@ -11,7 +11,7 @@ export default function BottomBanner() {
               width={100}
               src={socialmedia.src}
               alt={`${socialmedia.name} icon`}
-              className="p-2"
+              className="p-1 xs:p-2"
             />
           </div>
         ))}

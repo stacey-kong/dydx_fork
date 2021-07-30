@@ -15,7 +15,7 @@
     @apply uppercase text-xs text-secondary leading-5 tracking-wide;
   }
   .sectionTitle {
-    @apply text-xl mt-2;
+    @apply text-xl mt-2 leading-9;
   }
   .sectionParagraph {
     @apply text-s max-w-md mt-2;

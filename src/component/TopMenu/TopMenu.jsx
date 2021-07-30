@@ -74,7 +74,7 @@ export default function TopMenu() {
           </ul>
         </div>
       </div>
-      <div className="w-1/2 flex box-border justify-end mr-4 ">
+      <div className="w-1/4 xs:w-1/2 flex box-border justify-end mr-4 ">
         <img src={menu} alt="menu button" />
       </div>
     </div>

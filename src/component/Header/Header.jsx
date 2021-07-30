@@ -4,7 +4,7 @@ import starkware from "../../images/Header/starkware.svg";
 
 export default function Header() {
   return (
-    <div className={`${styles.header} pt-10 w-9/10 m-auto `}>
+    <div className={`pt-10 w-full xs:w-9/10 m-auto `}>
       <div className="sectionSubtitle inline-flex">
         Powered by
         <img src={starkware} alt="starkware" className="ml-2 mb-1" />

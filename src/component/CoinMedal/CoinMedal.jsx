@@ -4,7 +4,7 @@ import "./border.css";
 export default function CoinMedal(props) {
   return (
     <div
-      className={`${styles.coinWrapper} border${props.border} block py-5 px-6 w-11/12 mx-auto my-4 rounded-xl text-s `}
+      className={`${styles.coinWrapper} border${props.border} block py-5 px-6 mx-auto my-4 rounded-xl text-s `}
     >
       <div className={`${styles.coin} w-full inline-flex`}>
         <img

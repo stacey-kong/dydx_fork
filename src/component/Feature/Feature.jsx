@@ -29,7 +29,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className="title w-full text-sm">Low fees, no gas costs</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Once you deposit to Layer 2, you will no longer pay fees to miners
@@ -55,7 +55,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className={`flex flex-wrap w-3/4 text-sm`}>
               Lightning quick
             </span>
@@ -81,7 +81,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className="title w-full text-sm">Fast withdrawals</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Unlike other platforms, there is no wait required to withdraw your
@@ -105,7 +105,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className="title w-full text-sm">Mobile friendly</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               We've redesigned our exchange from the ground up, so you can use
@@ -132,7 +132,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className="title w-full text-sm">Secure &amp; private</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               StarkWare's Layer 2 solution provides increased security &amp;
@@ -159,7 +159,7 @@ export default function Feature() {
               </svg>
             </div>
           </div>
-          <div className={`${styles.text} flex flex-wrap w-3/4`}>
+          <div className={`${styles.text} flex flex-wrap w-3/4 ml-2`}>
             <span className="title w-full text-sm">Cross-margining</span>
             <span className={`${styles.featureIntro} text-secondary`}>
               Access leverage across positions in multiple markets from a single

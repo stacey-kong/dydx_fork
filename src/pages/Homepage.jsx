@@ -12,7 +12,7 @@ export default function Homepage() {
     <div className="homepageWrapper min-h-screen max-w-full text-white box-border overflow-y-auto">
       {!isMobile && <Video />}
       <TopMenu />
-      <div className="pageContainer w-9/10 m-auto box-border mt-12">
+      <div className="pageContainer w-9/10 m-auto box-border mt-20">
         <Header />
         <Market />
         <Feature />

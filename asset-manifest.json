@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dydx_fork/static/css/main.efd55f5a.chunk.css",
+    "main.css": "/dydx_fork/static/css/main.722c49a2.chunk.css",
     "main.js": "/dydx_fork/static/js/main.e1d2623b.chunk.js",
     "main.js.map": "/dydx_fork/static/js/main.e1d2623b.chunk.js.map",
     "runtime-main.js": "/dydx_fork/static/js/runtime-main.fe5c1e0d.js",
@@ -8,7 +8,7 @@
     "static/js/2.4b607ca2.chunk.js": "/dydx_fork/static/js/2.4b607ca2.chunk.js",
     "static/js/2.4b607ca2.chunk.js.map": "/dydx_fork/static/js/2.4b607ca2.chunk.js.map",
     "index.html": "/dydx_fork/index.html",
-    "static/css/main.efd55f5a.chunk.css.map": "/dydx_fork/static/css/main.efd55f5a.chunk.css.map",
+    "static/css/main.722c49a2.chunk.css.map": "/dydx_fork/static/css/main.722c49a2.chunk.css.map",
     "static/js/2.4b607ca2.chunk.js.LICENSE.txt": "/dydx_fork/static/js/2.4b607ca2.chunk.js.LICENSE.txt",
     "static/media/1confirmation.9d7d3ef3.svg": "/dydx_fork/static/media/1confirmation.9d7d3ef3.svg",
     "static/media/1inch.7e8ecb15.svg": "/dydx_fork/static/media/1inch.7e8ecb15.svg",
@@ -75,7 +75,7 @@
   "entrypoints": [
     "static/js/runtime-main.fe5c1e0d.js",
     "static/js/2.4b607ca2.chunk.js",
-    "static/css/main.efd55f5a.chunk.css",
+    "static/css/main.722c49a2.chunk.css",
     "static/js/main.e1d2623b.chunk.js"
   ]
 }
